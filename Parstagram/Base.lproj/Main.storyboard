@@ -169,6 +169,28 @@
                                             <outlet property="nameLabel" destination="Kwh-YP-Np3" id="gyq-Jt-74b"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="X79-JA-uFr">
+                                        <rect key="frame" x="0.0" y="486.33333206176758" width="390" height="37"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="X79-JA-uFr" id="1eb-vy-vgy">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="37"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a comment..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Jx-Im-ClN">
+                                                    <rect key="frame" x="16" y="8" width="366" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" systemColor="systemGray2Color"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="3Jx-Im-ClN" firstAttribute="leading" secondItem="1eb-vy-vgy" secondAttribute="leading" constant="16" id="HnU-b8-Rrm"/>
+                                                <constraint firstItem="3Jx-Im-ClN" firstAttribute="top" secondItem="1eb-vy-vgy" secondAttribute="top" constant="8" id="I4Q-c0-5Jh"/>
+                                                <constraint firstAttribute="trailing" secondItem="3Jx-Im-ClN" secondAttribute="trailing" constant="8" id="euZ-94-Jim"/>
+                                                <constraint firstAttribute="bottom" secondItem="3Jx-Im-ClN" secondAttribute="bottom" constant="8" id="yR3-Nw-nim"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
@@ -268,6 +290,9 @@
         <image name="instagram_logo" width="255" height="108"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
